@@ -1,7 +1,7 @@
 node{
   stage ('Build') {
 
-    git url: 'https://github.com/Voodoo3000/JMPSpringMVC/tree/mysql_jdbc_settings'
+    git url: 'https://github.com/Voodoo3000/JMPSpringMVC.git'
 
     withMaven(
         // Maven installation declared in the Jenkins "Global Tool Configuration"
